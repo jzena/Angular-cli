@@ -11,6 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { PendientesComponent } from './../pages/pendientes/pendientes.component';
 import { TerminadosComponent } from './../pages/terminados/terminados.component';
 import { AgregarComponent } from './../pages/agregar/agregar.component';
+import { DetalleComponent } from './../pages/detalle/detalle.component';
 
 // Pipes
 import { PlaceHolderPipe } from './pipes/placeholder.pipe';
@@ -23,6 +24,7 @@ import { PlaceHolderPipe } from './pipes/placeholder.pipe';
     PendientesComponent,
     TerminadosComponent,
     AgregarComponent,
+    DetalleComponent,
     TabsPage
   ],
   imports: [
@@ -34,6 +36,7 @@ import { PlaceHolderPipe } from './pipes/placeholder.pipe';
     PendientesComponent,
     TerminadosComponent,
     AgregarComponent,
+    DetalleComponent,
     TabsPage
   ],
   providers: [
