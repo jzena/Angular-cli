@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { APP_ROUTING } from './app.routes';
+
 import { AppComponent } from './app.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroeEditComponent } from './components/heroes/heroe-edit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroesComponent,
+    HeroeEditComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
