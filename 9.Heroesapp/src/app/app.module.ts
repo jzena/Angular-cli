@@ -9,11 +9,16 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeEditComponent } from './components/heroes/heroe-edit.component';
 
+// servicios
+import { HeroesService } from './services/heroes.service';
+import { KeysPipe } from './pipes/keys.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroeEditComponent
+    HeroeEditComponent,
+    KeysPipe
   ],
   imports: [
     BrowserModule,
@@ -21,7 +26,7 @@ import { HeroeEditComponent } from './components/heroes/heroe-edit.component';
     HttpModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [HeroesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
