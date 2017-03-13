@@ -1,0 +1,15 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\JZENA\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase open
+[debug] CLI Version:  3.2.2
+[debug] Platform:     win32
+[debug] Node Version: v7.4.0
+[debug] Time:         Mon Mar 13 2017 11:01:05 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/heroesapp-4bf80  
+ Mon Mar 13 2017 11:01:05 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/heroesapp-4bf80/tokens  
+ Mon Mar 13 2017 11:01:06 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] <<< HTTP RESPONSE 200
